@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+	background: lightblue;
+}
+p{
+	font-family: cursive;
+	text-align: center;
+	font-size: 50px;
+	color: hotpink;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px darkblue;
+	
+}
+.f1{
+	font-size: 24px;
+	text-decoration: none;
+}
+.f1:visited{
+	color: green;
+}
+.f1:active{
+	box-shadow: 0 0 20px goldenrod;
+}
+.f1:hover{
+	text-shadow: 0 0 20px hotpink;
+
+}
+.b1{
+	width: 200px;
+	height: 75px;
+	font-size: 24px;
+	font-family: 'Lobster', cursive ;
+	color: blueviolet;
+	font-weight: 700;
+	letter-spacing: 5px;
+	border-radius: 50%;
+	background-color: hotpink;
+	border: double 10px blue;
+}
+.b1:hover{
+  color: hotpink;
+  background-color: blue;
+  border-color: hotpink;
+  box-shadow: 0 0 20px blue;
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffea61 5%, #ff96f5 100%);
+	background-color:#ffea61;
+	border-radius:6px;
+	border:1px solid #e6b873;
+	display:inline-block;
+	cursor:pointer;
+	color:#e800e8;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #543b59;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ff96f5 5%, #ffea61 100%);
+	background-color:#ff96f5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
